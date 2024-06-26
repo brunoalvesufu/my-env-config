@@ -5,6 +5,8 @@
 !.gitignore
 !.p10k.zsh
 !.zshrc
+
+!.config/
 !.config/nvim/
 !.config/nvim/**
 !.config/nushell/

@@ -1,0 +1,116 @@
+ls
+ls | where size > 10mb
+sys
+sys cpu
+sys temp | sort by temp
+sys temp | sort-by temp
+man
+man man
+nvim
+l
+ls
+tree
+man tree
+tree -d
+lsd -lah
+ll
+ls
+ls 1
+ls #1
+ls #2
+bat head
+cat head
+l
+lsd
+ll
+ls
+cd Desktop/
+cd ..
+cd Public/
+ls
+cd ..
+ls
+cd repos/
+ls
+clear
+ls
+exit
+exit
+tmux
+l
+ls
+cal 
+cal su
+cal | where su
+cal | sort-by su
+du 
+l
+ls
+config
+config -h
+pwd
+date now
+date to-record
+date humanize
+date list-timezone 
+version
+version major
+http get www.opencritic.com
+http get https://www.opencritic.com
+tutor
+tutor list
+tutor begin
+ls | select name
+tutor tables
+ls | select 2
+ls | get name
+tutor cells
+(ls).4.type
+(ls).3.type
+tutor list
+tutor expressions
+10/2
+10 / 2
+tutor echo
+tutor each
+tutor list
+tutor block
+ls | each {|x| $x.name}
+tutor var
+$nu
+set 
+$nu.is-login
+$nu.is-login = true
+os-info
+cd
+l
+ls
+vi head
+tutor variables
+tutor list
+tutor shorthand
+(ls).name
+ls name
+ls | select name
+$env
+$
+exit
+plugin
+exit
+cd .local/state/nvim/
+tree
+cd /
+tree
+ls
+cd
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear]
+clear
+ls
+exit
