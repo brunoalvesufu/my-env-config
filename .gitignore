@@ -1,0 +1,11 @@
+# Ignore all files
+*
+
+# Designorar arquivos específicos
+!.gitignore
+!.p10k.zsh
+!.zshrc
+!~/.config/nvim
+!~/.config/nushell
+!~/.config/warp-terminal
+!~/.config/alacritty
