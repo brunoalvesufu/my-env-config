@@ -102,8 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="lsd -lah"
+alias ll="lsd -la"
 alias fo='nvim $(fzf --preview "bat --style=numbers --color=always --line-range :500 {}")'
+
+alias l="lsd -l"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
