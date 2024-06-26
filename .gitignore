@@ -5,7 +5,11 @@
 !.gitignore
 !.p10k.zsh
 !.zshrc
-!~/.config/nvim
-!~/.config/nushell
-!~/.config/warp-terminal
-!~/.config/alacritty
+!.config/nvim/
+!.config/nvim/**
+!.config/nushell/
+!.config/nushell/**
+!.config/warp-terminal/
+!.config/warp-terminal/**
+!.config/alacritty/
+!.config/alacritty/**
