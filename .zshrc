@@ -103,7 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="lsd -la"
-alias fo='nvim $(fzf --preview "bat --style=numbers --color=always --line-range :500 {}")'
+alias fzp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+alias fo='nvim $(fzp)'
 
 alias l="lsd -l"
 
